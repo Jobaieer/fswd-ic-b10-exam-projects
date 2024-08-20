@@ -3,3 +3,53 @@
 ** Global CSS File
 ** Written by Jobaieer
 */
+
+/*Font Muli - Google Font*/
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400..800;1,400..800&family=Rubik:ital,wght@0,400..800;1,400..800&display=swap");
+
+/*Margin Set*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Colors*/
+:root {
+  --background-color: #ffff;
+  --background-color-first: #ffa50280;
+  --background-color-second: #2ed57380;
+  --background-color-third: #ff475780;
+  --font-color: #000000;
+  --font-color-second: #373f41;
+  --font-color-third: #737b7d;
+  --btn-color: #f73c6b;
+  --color-blue: #3c64b1;
+  --color-dark-blue: #4f55dd;
+}
+
+body {
+  font-family: "Mulish", sans-serif;
+}
+
+/* Side by Side Margin*/
+.margin-ss {
+  margin: 0 100px;
+}
+
+#header-container {
+  padding-top: 30px;
+  background-color: var(--background-color-first);
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border-radius: 5px;
+  border-color: 1px solid var(--btn-color);
+}
+
+main {
+  background-color: whitesmoke;
+}
