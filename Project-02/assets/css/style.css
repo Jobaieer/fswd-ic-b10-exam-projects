@@ -3,3 +3,163 @@
 ** Style CSS File
 ** Written by Jobaieer
 */
+/*Nav Section*/
+.nav-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h3 {
+  font-size: 25px;
+  width: 292.74px;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+.s-in {
+  display: flex;
+  gap: 20px;
+  width: 292.74px;
+  justify-content: right;
+  align-items: center;
+}
+
+.about,
+.sign-in {
+  color: var(--color-blue);
+  text-decoration: none;
+}
+
+.contact-btn {
+  background-color: var(--background-color-first);
+  border-radius: 5px;
+  padding: 30px 30px;
+}
+
+.btn {
+  font-size: 16px;
+  background-color: var(--btn-color);
+  color: var(--background-color);
+  padding: 10px 10px;
+  border-color: var(--btn-color);
+}
+
+/* Hero Section */
+#hero-section {
+  margin-top: 50px;
+}
+
+.hero-right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.hero-right h4 {
+  color: var(--btn-color);
+  border: 2px solid var(--background-color-third);
+  padding: 10px 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.hero-right h1 {
+  font-size: 50px;
+  color: var(--font-color-second);
+}
+
+.hero-right p {
+  color: var(--font-color-third);
+  width: 424.35px;
+  text-align: justify;
+}
+
+.hero-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.icon1 {
+  height: 0px;
+}
+
+/*Main Container */
+/*Part 1 Section*/
+.part1-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 110px 0;
+}
+
+.part1-left {
+  width: 50%;
+  height: 484px;
+  display: flex;
+  align-items: center;
+}
+
+.part1-right {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.p-card-1 p {
+  background-color: var(--color-dark-blue);
+  border: 1px solid var(--color-dark-blue);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.p-card-o {
+  background-color: var(--background-color);
+  border: 1px solid var(--background-color);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+/*Part 2 Section*/
+
+.main-part2 {
+  background-color: var(--background-color-second);
+}
+
+.part-2-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+  padding: 50px 0px;
+}
+
+.part-2-left,
+.part-2-right h1 {
+  color: var(--font-color-second);
+  width: 420px;
+}
+
+.part-2-left,
+.part-2-right {
+  font-size: 25px;
+}
+
+.part-2-right h1 {
+  display: flex;
+  justify-content: right;
+}
+
+.icon2 {
+  height: 20px;
+}
