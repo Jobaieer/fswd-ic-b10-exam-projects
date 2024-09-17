@@ -1,0 +1,61 @@
+/**
+** fswd-ic-b10-exam-projects : CSS Final
+** Style CSS File
+** Written by Jobaieer
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e30;
+  color: white;
+}
+
+#timeline-container {
+  margin: 100px auto;
+  width: 50vw;
+  border-left: 5px solid #27293f;
+  padding: 0px 20px;
+}
+
+div {
+  background-color: #27293f;
+  padding: 13px 25px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+p {
+  text-align: justify;
+}
+
+div::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #1e1e30;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-right: 10px;
+  position: relative;
+  top: 35px;
+  left: -60px;
+}
+
+div::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: transparent #27293f transparent transparent;
+  border-width: 8px;
+  position: relative;
+  top: -125px;
+  left: -40px;
+}
