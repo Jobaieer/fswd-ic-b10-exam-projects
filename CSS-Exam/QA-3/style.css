@@ -1,0 +1,85 @@
+/**
+** fswd-ic-b10-exam-projects : CSS Final
+** Style CSS File
+** Written by Jobaieer
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+  width: 100%;
+  height: 100vh;
+}
+
+#navbar {
+  background-color: tomato;
+  margin: 10px 10px;
+
+  position: fixed;
+  width: 98.5%;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-menu {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+#nav-menu li {
+  list-style: none;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+#nav-menu li:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+
+.dropdown-1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  background-color: tomato;
+  left: 0;
+  display: none;
+  width: 150px;
+}
+
+#nav-menu li:hover .dropdown-1 {
+  display: block;
+}
+
+#nav-menu > li {
+  width: 150px;
+  text-align: center;
+}
+
+.dropdown-2 {
+  position: relative;
+  background-color: tomato;
+  left: 150px;
+  top: -31px;
+  display: none;
+  justify-content: center;
+  width: 150px;
+}
+
+.dropdown-1 li:hover .dropdown-2 {
+  display: block;
+
+  flex-direction: column;
+}
+
+.dropdown-1 li {
+  height: 30px;
+}
